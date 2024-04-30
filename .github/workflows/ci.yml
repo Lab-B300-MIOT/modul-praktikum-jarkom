@@ -29,6 +29,11 @@ jobs:
         with:
           root_file: main.tex
           pre_compile: |
+            MODULE_NAME="${{ matrix.module }}"
+            JUDUL_MODUL=$(echo "$MODULE_NAME" | sed -e 's|.*/||' -e 's|_IND||')
+            JUDUL_MODUL_WITH_SPACES=$(echo "$JUDUL_MODUL" | sed -r 's/([a-z])([A-Z])/\1 \2/g')
+            JUDUL_MODUL_WITH_SPACES=$(echo "$JUDUL_MODUL_WITH_SPACES" | sed -r 's/dan/ dan/g')
+            sed -i "s|\\\\def\\\\judul{.*}|\\\\def\\\\judul{$JUDUL_MODUL_WITH_SPACES}|" main.tex
             sed -i 's|% \\input{'${{ matrix.module }}'.tex|\\input{'${{ matrix.module }}'.tex|' main.tex
           working_directory: .
           docker_image: ghcr.io/xu-cheng/texlive-full:20240315
