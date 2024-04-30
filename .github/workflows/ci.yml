@@ -56,7 +56,7 @@ jobs:
 
       - uses: actions/upload-artifact/merge@v4
         with:
-          name: merged-artifacts
+          name: github-pages
 
   deploy:
     name: Deploy
