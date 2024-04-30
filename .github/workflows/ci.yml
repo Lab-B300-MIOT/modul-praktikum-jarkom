@@ -1,6 +1,9 @@
 name: CI
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 # INDONESIA
 jobs:
   compile_and_deploy_IND:
