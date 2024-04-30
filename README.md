@@ -8,11 +8,11 @@ Modul Praktikum Jaringan Komputer ini disusun untuk membantu mahasiswa memahami 
 
 ## Isi Modul
 
-1. **Wireless**
-2. **Routing Statis dan Dinamis**
-3. **Manajemen Bandwith**
-4. **Routing Statis dan Dinamis**
-5. **IPv6**
+1. **Wireless** [Download](https://lab-b300-miot.github.io/modul-praktikum-jarkom/P1_Wireless.pdf)
+2. **Routing Statis dan Dinamis** [Download](https://lab-b300-miot.github.io/modul-praktikum-jarkom/P2_RoutingStatisdanDinamis.pdf)
+3. **Manajemen Bandwith** [Download](https://lab-b300-miot.github.io/modul-praktikum-jarkom/P3_ManajemenBandwith.pdf)
+4. **VPN** [Download](https://lab-b300-miot.github.io/modul-praktikum-jarkom/P4_VPN.pdf)
+5. **IPv6** [Download](https://lab-b300-miot.github.io/modul-praktikum-jarkom/P5_IPv6.pdf)
 
 ## Panduan Penggunaan
 
@@ -32,7 +32,7 @@ Modul Praktikum Dasar Pemrograman ini dilisensikan di bawah [lisensi MIT](LICENS
 
 ---
 
-Dengan menggunakan modul ini, kami harap Anda dapat memahamijaringan komputer. Selamat belajar!
+Dengan menggunakan modul ini, kami harap Anda dapat memahami jaringan komputer. Selamat belajar!
 
 Jika Anda memiliki pertanyaan atau masukan, silakan hubungi admin
 
